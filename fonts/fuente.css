@@ -1,0 +1,12 @@
+@font-face{
+    font-family:'Poppins-ExtraBold';
+    src:url(fonts/Poppins-ExtraBold.otf) format('otf');
+}
+@font-face{
+    font-family:'Montserrat-Medium';
+    src:url(fonts/Montserrat-Medium.otf) format('otf');
+}
+@font-face{
+    font-family:'Montserrat-Bold';
+    src:url(fonts/Montserrat-Bold.otf) format('otf');
+}

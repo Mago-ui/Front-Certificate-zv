@@ -1,0 +1,155 @@
+
+
+.certificateContainer{
+    width: 100%;
+    height: 100vh;
+}
+.certificateContainer-body{
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1320px;
+    height: 100vh;
+    background: white;
+}
+
+.certificateContainer-logo{
+    display: flex;
+    padding-top: 41px;
+    align-items: center;
+}
+
+.certificateContainer-logo img {
+    width: 40px;
+    height: 40px;
+    margin-left: 12px;
+    margin-right: 16px;
+}
+
+.certificateContainer-logo div {
+    width: 100%;
+    height: 30px;
+    background: #FE0022;
+}
+
+
+
+.certificateContainer-center{
+    height: 57vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificateContainer-center p:nth-child(1){
+    font-size: 55px;
+    font-weight: 900;
+    font-family: Poppins-ExtraBold;
+    letter-spacing: 1px;
+}
+
+.certificateContainer-center p:nth-child(3){
+    font-size: 35px;
+    font-weight: 900;
+    font-family:Montserrat-Bold;
+}
+
+.certificateContainer-center p:nth-child(5){
+    font-size: 35px;
+    font-weight: 900;
+    font-family:Montserrat-Bold;
+}
+
+.certificateContainer-center span:nth-child(2){
+    height: 56px;
+    display: flex;
+    align-items: center;
+    font-family:Montserrat-Medium;
+    
+}
+.certificateContainer-center span:nth-child(4){
+    height: 56px;
+    display: flex;
+    align-items: center;
+    font-family:Montserrat-Medium;
+    
+}
+
+.certificateContainer-end{
+    height: 25%;
+    align-items: flex-end;
+    padding-left: 16px;
+    padding-right: 3px;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+}
+
+.certificateContainer-end .child{
+    font-size: 15px;
+    font-family: Montserrat-Medium;
+    text-align: end;
+}
+
+.certificateContainer-endTime{
+    display: grid;
+    grid-template-columns: repeat(3,27px);
+    grid-gap: 18px;
+    grid-template-rows: 40px;
+    text-align: center;
+
+}
+
+.certificateContainer-endTimeImg{
+    position: relative;
+}
+
+.certificateContainer-endTimeImg p:nth-child(2){
+    font-size: 5px;
+    font-family: Montserrat-Medium;
+    text-align: end;
+    padding-top: 1px;
+}
+.certificateContainer-endTimeImg p:nth-child(1){
+    font-size: 12px;
+    font-weight: 900;
+    font-family:Montserrat-Bold;
+}
+
+.certificateContainer-endTimeImg img{
+    width: 6px;
+    position: absolute;
+}
+
+.certificateContainer-unity{
+
+}
+.certificateContainer-unity p{
+    font-size: 10px;
+    font-weight: 700;
+    font-family: Montserrat-Bold;
+    padding-bottom: 5px;
+}
+.certificateContainer-unity li{
+    font-size: 10px;
+    font-family:Montserrat-Medium;
+}
+
+.certificateContainer-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.certificateContainer-name p:nth-child(2) {
+    font-size: 15px;
+    font-family:Montserrat-Medium;
+    padding-bottom: 3px;
+}
+
+.certificateContainer-name p:nth-child(3) {
+    font-size: 10px;
+    color: #989494;
+    font-family:Montserrat-Medium;
+}
+
